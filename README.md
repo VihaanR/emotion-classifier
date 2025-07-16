@@ -65,8 +65,10 @@ python emotion_classifier.py
 
 ## 📊 Analyzing Results
 
-When you finish a session (by pressing 'x'), a CSV log of all detected emotions and face mesh points is saved in `emotion-classifier/emotion_mesh_log.csv`. 
-Due to variable file path setup , you might not find the csv upfront in the project folder , it might end up in a subfolder also name `emotion-classifier `.
+When you finish a session (by pressing 'x'), a CSV log of all detected emotions and face mesh points is saved in `emotion-classifier/emotion_mesh_log.csv`
+
+Due to variable file path setup , you might not find the csv upfront in the project folder , it might end up in a subfolder also name `emotion-classifier `
+
 A graph will automatically display showing the frequency of detected emotions.
 
 ---
