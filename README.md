@@ -15,6 +15,16 @@ A real-time python project for live facial emotion detection and face mesh visua
 
 ## 🛠️ Installation Guide
 
+# Directory Structure:
+```
+ emotion-classifier/
+  ├── emotion_classifier.py          # Main file (camera + overlay + mesh + logging)
+  ├── emotion_overlay.py             # Emoji rendering logic
+  ├── logger.py                      # Emotion + face mesh logging combined
+  ├── requirements.txt               # Dependencies
+  └── README.md                      # Project description and usage instructions
+```
+
 ### 1. Clone the Repository
 
 First, clone this repository to your local machine using Git:
@@ -94,13 +104,13 @@ All main dependencies are listed in `requirements.txt`:
 
 Here are some features and experiments I plan to explore and build into the project:
 
-1. **Brightness Regulator:** Inspired by the Google Meet background filter brightness feature. I noticed emotion detection is affected by lighting changes, so I want to add a feature that automatically adjusts the webcam feed's brightness to an optimal level by dynamically altering frame properties.
+- [ ] **Brightness Regulator:** Inspired by the Google Meet background filter brightness feature. I noticed emotion detection is affected by lighting changes, so I want to add a feature that automatically adjusts the webcam feed's brightness to an optimal level by dynamically altering frame properties.
 
-2. **Audio and Visual Overlay:** After the emoji issue, I'm keen to learn and implement robust overlay of images (like expressive icons) and audio cues to enhance feedback.
+- [ ] **Audio and Visual Overlay:** After the emoji issue, I'm keen to learn and implement robust overlay of images (like expressive icons) and audio cues to enhance feedback.
 
-3. **Gesture Control:** Integrate gesture recognition to control parts of the application hands-free and bring in another layer of interactivity.
+- [ ] **Gesture Control:** Integrate gesture recognition to control parts of the application hands-free and bring in another layer of interactivity.
 
-4. **UI:** Design and implement a user interface that wraps all these features into an intuitive and seamless experience.
+- [ ] **UI:** Design and implement a user interface that wraps all these features into an intuitive and seamless experience.
 
 ---
 
