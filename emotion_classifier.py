@@ -1,7 +1,5 @@
 # THe main one
 # TODO : emoji addition beside emotion | maybe add audio cues ? 
-
-
 import cv2 as cv
 from fer import FER #pre-trained model for emotion recognition
 from datetime import datetime
