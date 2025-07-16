@@ -57,6 +57,7 @@ After installing the dependencies, you can start the project:
 python emotion_classifier.py
 ```
 
+- BE PATIENT it will likely take some time , also there will be a couple of "warning" messages but ignore those and wait until two cam feeds show up
 - The webcam feed will launch, showing real-time emotion predictions and facial mesh overlay.
 - Press **'x'** on your keyboard to exit at any time.
 
