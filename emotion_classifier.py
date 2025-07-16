@@ -1,19 +1,5 @@
-# Directory Structure:
-# emotion-classifier/
-# ├── emotion_classifier.py          # Main app (camera + overlay + mesh + logging)
-# ├── emotion_overlay.py              # Emoji rendering logic
-# ├── logger.py                      # Emotion + face mesh logging combined
-# ├── requirements.txt                # Dependencies
-# └── README.md                       # Project description and usage instructions
-
-# ----------------------
-# emotion_classifier.py
-# ----------------------
-
-# Quick emotion detection app - tracks facial expressions in real time
+# THe main one
 # TODO : emoji addition beside emotion | maybe add audio cues ? 
-
-
 import cv2 as cv
 from fer import FER #pre-trained model for emotion recognition
 from datetime import datetime
@@ -26,7 +12,7 @@ from logger import setup_csv, save_data ,display_graphs#funcs from logger.py
 # Camera setup (these work fine on my cam)
 cap = cv.VideoCapture(0)
 cap.set(cv.CAP_PROP_FRAME_WIDTH, 576)
-cap.set(cv.CAP_PROP_FRAME_HEIGHT, 432) #resolution setup to 640x480px
+cap.set(cv.CAP_PROP_FRAME_HEIGHT, 432) #resolution setup to 576x432px (optimum as per my cam)
 
 # FER detector initialization for emotion detection
 detector = FER() 
