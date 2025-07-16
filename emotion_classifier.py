@@ -48,7 +48,9 @@ frame_count = 0
 prev_time = time.time()
 
 #For turning off the cameras , the Top right X in the windows wont work but the x from the keyboard will
-print("Starting emotion classifier...O....O....O... Press 'x' button to quit") 
+print("Starting emotion classifier...x....x....x...")
+
+print(" Press 'x' button to quit")
 
 while True:
     ret, frame = cap.read()
