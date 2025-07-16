@@ -1,9 +1,5 @@
-
-
 # logger.py
 # Handles CSV logging for emotion and face mesh data
-
-
 import csv 
 import os #for dealing wiht the directories and files
 from datetime import datetime
