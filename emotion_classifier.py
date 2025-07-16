@@ -12,7 +12,7 @@ from logger import setup_csv, save_data ,display_graphs#funcs from logger.py
 # Camera setup (these work fine on my cam)
 cap = cv.VideoCapture(0)
 cap.set(cv.CAP_PROP_FRAME_WIDTH, 576)
-cap.set(cv.CAP_PROP_FRAME_HEIGHT, 432) #resolution setup to 640x480px
+cap.set(cv.CAP_PROP_FRAME_HEIGHT, 432) #resolution setup to 576x432px (optimum as per my cam)
 
 # FER detector initialization for emotion detection
 detector = FER() 
