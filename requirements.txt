@@ -1,0 +1,6 @@
+python==3.11
+opencv-python==4.9.0.80
+fer==23.0.2
+mediapipe==0.10.9
+pandas==2.2.2
+matplotlib==3.8.4
