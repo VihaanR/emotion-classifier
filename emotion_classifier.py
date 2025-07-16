@@ -1,16 +1,4 @@
-# Directory Structure:
-# emotion-classifier/
-# ├── emotion_classifier.py          # Main app (camera + overlay + mesh + logging)
-# ├── emotion_overlay.py              # Emoji rendering logic
-# ├── logger.py                      # Emotion + face mesh logging combined
-# ├── requirements.txt                # Dependencies
-# └── README.md                       # Project description and usage instructions
-
-# ----------------------
-# emotion_classifier.py
-# ----------------------
-
-# Quick emotion detection app - tracks facial expressions in real time
+# THe main one
 # TODO : emoji addition beside emotion | maybe add audio cues ? 
 
 
