@@ -1,6 +1,6 @@
 # Emotion Classifier
 
-A real-time Python project for live facial emotion detection and face mesh visualization using your webcam. This project uses computer vision and deep learning to track and log emotions, overlay results, and analyze facial data for later insights.
+A real-time python project for live facial emotion detection and face mesh visualization using your webcam. This project uses computer vision and deep learning to track and log emotions, overlay results, and analyze facial data for later insights.
 
 ---
 
@@ -59,7 +59,7 @@ A graph will automatically display showing the frequency of detected emotions.
 
 ---
 
-## 💡 Notes & Troubleshooting
+## 📝 Note
 
 - **Python Version:** The project is tested on Python 3.11. Other versions may cause dependency errors (especially with TensorFlow).
 - **Webcam Issues:** If your webcam is not detected or the feed freezes after sleep, restart the project.
@@ -82,9 +82,11 @@ All main dependencies are listed in `requirements.txt`:
 
 ## 🤖 Possible Applications
 
-1. **Mental Health Monitoring:** Track emotional states for personal wellness or therapist insights.
-2. **Human-Computer Interaction:** Make adaptive interfaces for games, education, or accessibility.
-3. **Customer Experience:** Analyze real-time reactions in retail, events, or market research.
+1. **Mental Health Monitoring:** Track emotional states for personal wellness or therapist insights.(the most classic one imo)
+
+2. **Human-Computer Interaction:** Make adaptive interfaces for games, education, or accessibility.Can be a great feature for increasing immersion.
+
+3. **Customer Experience:** Analyze real-time reactions in retail, events, or market research.People often lie but stats don't. Real Time Data Analysis would reveal the reactions of each person.
 
 ---
 
@@ -93,9 +95,12 @@ All main dependencies are listed in `requirements.txt`:
 Here are some features and experiments I plan to explore and build into the project:
 
 1. **Brightness Regulator:** Inspired by the Google Meet background filter brightness feature. I noticed emotion detection is affected by lighting changes, so I want to add a feature that automatically adjusts the webcam feed's brightness to an optimal level by dynamically altering frame properties.
+
 2. **Audio and Visual Overlay:** After the emoji issue, I'm keen to learn and implement robust overlay of images (like expressive icons) and audio cues to enhance feedback.
+
 3. **Gesture Control:** Integrate gesture recognition to control parts of the application hands-free and bring in another layer of interactivity.
-4. **UI to Sum It All Up:** Design and implement a user interface that wraps all these features into an intuitive and seamless experience.
+
+4. **UI:** Design and implement a user interface that wraps all these features into an intuitive and seamless experience.
 
 ---
 
